@@ -1,0 +1,87 @@
+.body {
+    background-color: antiquewhite;
+}
+.overlay {
+    background-color: antiquewhite;
+    font-size: 25px;
+    color: black;
+    opacity: 1;
+    margin-top: -880px;
+    position: absolute;
+    margin-bottom: -100px;
+}
+h1.h1 {
+    margin-left: 10px;
+    font-family: Trajanus Roman Font;
+}
+p.header1 {
+    float: right;
+    margin-top: -75px;
+    word-spacing: 30px;
+    font-size: 20px;
+    margin-right: 30px;
+    margin-left: 834px;
+    color: black;
+}
+.history {
+    border-top: 4px dotted black;
+    font-size: 25px;
+    margin-left: 10px;
+    word-spacing: 5px;
+    font-family: Copperplate;
+    margin-top: 10px;
+}
+.img {
+    display: block;
+    position: relative;
+}
+h1.h2 {
+    font-size: 40px;
+    margin-bottom: -10px;
+}
+p.txt {
+    word-spacing: 5px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+}
+h1.h3 {
+    border-top: 4px dotted black;
+    text-align: center;
+    margin-bottom: -10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin-top: -10px;
+    padding: 10px;
+}
+h1.h4 {
+    border-top: 4px dotted black;
+    text-align: center;
+    margin-bottom: -10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin-top: 20px;
+    padding: 10px;
+}
+p.img2 { 
+   padding: 10px;
+   float: left;
+}
+p.txt2 {
+    margin-top: 23px;
+    font-family: Copperplate;
+    font-size: 24px;
+}
+.grid-item:hover {
+    transform: scale(1.5);
+}
